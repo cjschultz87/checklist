@@ -21,7 +21,7 @@ void main()
 	
 	d = &delta;
 	
-	d += 150&15;
+	d += (150&15)*sizeof(double);
 	
 	*d = 5;
 	
