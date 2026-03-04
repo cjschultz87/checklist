@@ -18,3 +18,4 @@ check13: memory copy incremented by one, from sierra to sierra_prime<br>
 check14: dynamically insert yankee at index iota for pointer sierra, overwriting the next address<br>
 check15: inserting yankee at index iota for pointer sierra, redefining the addresses of the pointer to avoid an overwrite<br>
 check.tree: compares the sizes of a pointer to a struct with a mostly unallocated pointer of a sub-struct with a struct that initializes the sub-struct<br>
+check.dynamic_void: dynamically allocates data then passes the address of the allocation to a byte assignment function, which assigns the last value of the allocation using that address.
